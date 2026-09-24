@@ -8,7 +8,7 @@ sd_data = pd.read_csv("smoking_drinking.csv", header=0, sep=",")
 # 1a
 # First rows
 print("\nFirst rows:")
-print(sd_data.head().to_string())
+print(sd_data.head())
 print("\n\n\n")
 
 # Summary statistics
